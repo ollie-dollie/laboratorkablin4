@@ -5,7 +5,8 @@ int p = 1;
 int i = 1;
 while (i <= m)
 {
-    p *= a * (a - i * n);
+    p *= (a - i * n);
     i++; 
 }
+
 Console.WriteLine(p);
